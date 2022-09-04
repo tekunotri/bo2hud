@@ -2,7 +2,7 @@
 
 event HudHealthBonusPulse
 {
-	Animate 	PlayerStatusHealthValue 		FgColor 	"Main" 					Linear 	0.0 	0.0
+	Animate 	PlayerStatusHealthValue 		FgColor 	"High" 					Linear 	0.0 	0.0
 
 	RunEvent 	HudHealthBonusPulseLoop			0.4
 }
@@ -57,7 +57,7 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate 	ChargeLabel 					FgColor 	"Main" 					Linear 	0.0 	0.0
+	Animate 	ChargeLabel 					FgColor 	"High" 					Linear 	0.0 	0.0
 
 	RunEvent 	HudMedicChargedLoop				0.6
 }
