@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"AmmoAnchor"
-		"xpos"										"c150"
-		"ypos"										"c90"
+		"xpos"										"r114+20"
+		"ypos"										"r57"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"40"
@@ -31,7 +31,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClip"
-		"xpos"										"0"
+		"xpos"										"-35"
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"60"
@@ -42,6 +42,7 @@
 		"labelText"									"%Ammo%"
 		"font"										"HudFontBiggerBold"
 		"fgcolor"									"White"
+		"textinsetx"								"7"
 
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -62,6 +63,7 @@
 		"labelText"									"%Ammo%"
 		"font"										"HudFontBiggerBold"
 		"fgcolor"									"0 0 0 130"
+		"textinsetx"								"7"
 
 		"pin_to_sibling"							"AmmoInClip"
 	}
@@ -70,20 +72,21 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserve"
 		"xpos"										"3"
-		"ypos"										"0"
+		"ypos"										"4"
 		"zpos"										"7"
 		"wide"										"60"
 		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"west"
+		"textAlignment"								"east"
 		"labelText"									"%AmmoInReserve%"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"HudFontBiggerBoldSecondary"
 		"fgcolor"									"White"
+		"textinsetx"								"7"
 
 		"pin_to_sibling"							"AmmoAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"AmmoInReserveShadow"
 	{
@@ -96,10 +99,11 @@
 		"tall"										"41"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"west"
+		"textAlignment"								"east"
 		"labelText"									"%AmmoInReserve%"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"HudFontBiggerBoldSecondary"
 		"fgcolor"									"0 0 0 130"
+		"textinsetx"								"7"
 
 		"pin_to_sibling"							"AmmoInReserve"
 	}
@@ -107,17 +111,18 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
-		"xpos"										"0"
+		"xpos"										"24"
 		"ypos"    									"0"
 		"zpos"										"5"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"center"
+		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 		"font"										"HudFontBiggerBold"
 		"fgcolor"									"White"
+		"textinsetx"								"7"
 
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -134,10 +139,11 @@
 		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"center"
+		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 		"font"										"HudFontBiggerBold"
 		"fgcolor"									"0 0 0 130"
+		"textinsetx"								"7"
 
 		"pin_to_sibling"							"AmmoNoClip"
 	}
