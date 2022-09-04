@@ -50,56 +50,61 @@
 		"ypos"										"rs1"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"15"
+		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"15"
 
-		"6v6_gap"									"1"
-		"12v12_gap"									"0"
+		"max_size"									"30"
+
+		"6v6_gap"									"4"
+		"12v12_gap"									"1"
 
 		"team1_grow_dir" 							"west"
 		"team1_base_x"								"c-2"
-		"team1_max_expand"							"120"
+		"team1_max_expand"							"133"
 
-		"team2_grow_dir" 							"east"
+		"team2_grow_dir"							"east"
 		"team2_base_x"								"c2"
-		"team2_max_expand"							"120"
-
+		"team2_max_expand"							"133"
 		"playerpanels_kv"
 		{
 			"visible"								"0"
-			"wide"									"f0"
-			"tall"									"f0"
+			"wide"									"25"
+			"tall"									"50"
 			"zpos"									"1"
-			"proportionaltoparent"					"1"
 
 			"color_portrait_bg_red"					"HUDRedTeamSolid"
 			"color_portrait_bg_blue"				"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"			"White"
 			"color_portrait_bg_blue_dead"			"White"
-			"color_bar_health_high"					"Main"
-			"color_bar_health_med"					"255 160 100 255"
+			"color_bar_health_high"					"3 255 17 255"
+			"color_bar_health_med"					"206 164 0 255"
 			"percentage_health_med"					"0.6"
-			"color_bar_health_low"					"Low"
+			"color_bar_health_low"					"255 1 3 255"
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
 			"color_portrait_blend_dead_blue" 		"White"
-
+			
+			"playername"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"playername"
+				"xpos"								"99999"
+			}
 			"classimage"
 			{
 				"ControlName"						"CTFClassImage"
 				"fieldName"							"classimage"
 				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
-				"zpos"								"5"
-				"wide"								"15"
-				"tall"								"15"
+				"ypos"								"0"
+				"zpos"								"9"
+				"wide"								"19"
+				"tall"								"19"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
-				"scaleImage"						"1"
+				"scaleImage"						"1"	
 				"proportionaltoparent"				"1"
 			}
 			"classimagebg"
@@ -110,99 +115,114 @@
 				"ypos"								"0"
 				"zpos"								"2"
 				"wide"								"f0"
-				"tall"								"f0"
+				"tall"								"19"
 				"visible"							"1"
 				"enabled"							"1"
 				"PaintBackgroundType"				"0"
 				"proportionaltoparent"				"1"
 			}
 			"healthbar"
-			{
+			{	
 				"ControlName"						"ContinuousProgressBar"
-				"fieldName"							"healthbar"
+				"fieldName"							"healthbar"																	
 				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"3"
-				"wide"								"9999"
-				"tall"								"f0"
+				"zpos"								"5"
+				"wide"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	   				"Blank"
-				"proportionaltoparent"				"1"
+				"bgcolor_override"	   				"80 80 80 255"
+			}
+			"overhealbar"
+			{	
+				"ControlName"						"ContinuousProgressBar"
+				"fieldName"							"overhealbar"
+				"font"								"Default"																		
+				"xpos"								"0"
+				"zpos"								"6"
+				"wide"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"fgcolor_override"	   				"0 231 244 160"
 			}
 			"respawntime"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"HudFontSmallestShadow"
+				"font"								"Default"
 				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
+				"ypos"								"0"
 				"zpos"								"10"
 				"wide"								"f0"
-				"tall"								"f0"
+				"tall"								"19"
+				"autoResize"						"0"
+				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
-				"fgcolor"							"255 255 0 255"
+				"fgcolor_override"					"255 255 0 255"
 			}
-
-
-
-			"playername"
+			"respawntimeshadow"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"playername"
-				"xpos"								"9999"
+				"fieldName"							"respawntimeshadow"
+				"font"								"Default"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"9"
+				"wide"								"f-1"
+				"tall"								"20"
+				"autoResize"						"0"
+				"pinCorner"							"0"
+				"visible"							"1"
+				"labelText"							"%respawntime%"
+				"textAlignment"						"center"
+				"proportionaltoparent"				"1"
+				"fgcolor_override"					"0 0 0 255"
+				"pin_to_sibling"					"respawntime"
 			}
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
-				"xpos"								"9999"
+				"xpos"								"99999"
 				"visible"							"0"
 			}
 			"ReadyBG"
 			{
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
-				"xpos"								"9999"
+				"xpos"								"99999"
 			}
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
-				"xpos"								"9999"
-			}
-			"overhealbar"
-			{
-				"ControlName"						"ContinuousProgressBar"
-				"fieldName"							"overhealbar"
-				"xpos"								"9999"
+				"xpos"								"99999"
 			}
 			"chargeamount"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
-				"xpos"								"9999"
+				"xpos"								"99999"
 			}
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
-				"xpos"								"9999"
+				"xpos"								"99999"
 			}
 			"DeathPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"DeathPanel"
-				"xpos"								"9999"
+				"xpos"								"99999"
 			}
 			"SkullPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SkullPanel"
-				"xpos"								"9999"
+				"xpos"								"99999"
 			}
 		}
 	}
