@@ -44,11 +44,11 @@
 		"TransparentLightBlack"								"0 0 0 100"
 		"FooterBGBlack"										"52 48 55 255"
 
-		"HUDBlueTeam"										"0 120 201 255"
-		"HUDRedTeam"										"235 58 58 255"
+		"HUDBlueTeam"										"24 134 255 255"
+		"HUDRedTeam"										"254 151 16 255"
 		"HUDSpectator"										"120 115 105 255"
-		"HUDBlueTeamSolid"									"115 150 170 255"
-		"HUDRedTeamSolid"									"189 59 61 255"
+		"HUDBlueTeamSolid"									"24 134 255 255"
+		"HUDRedTeamSolid"									"254 151 16 255"
 		"HUDDeathWarning"									"255 0 0 255"
 		"HudWhite"											"225 220 220 255"
 		"HudOffWhite"										"225 220 220 255"
@@ -384,8 +384,8 @@
 
 		"ViewportBG"										"Blank"
 		"TeamSpec"											"204 204 204 255"
-		"TeamRed"											"255 64 64 255"
-		"TeamBlue"											"153 204 255 255"
+		"TeamRed"											"254 151 16 255"
+		"TeamBlue"											"24 134 255 255"
 
 		"MapDescriptionText"								"Gray"
 		"HudIcon_Green"										"0 160 0 255"
@@ -426,7 +426,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"20"
 				"antialias" 								"1"
 				"dropshadow"								"1"
@@ -436,7 +436,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -445,7 +445,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -464,7 +464,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias" 								"1"
 				"additive"									"1"
@@ -474,7 +474,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -483,7 +483,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -492,7 +492,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"46"
 				"antialias" 								"1"
 			}
@@ -501,8 +501,17 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB-Numbers"
 				"tall"										"35"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontBiggerBoldSecondary"
+		{
+			"1"
+			{
+				"name"										"AgencyFB-Numbers"
+				"tall"										"23"
 				"antialias" 								"1"
 			}
 		}
@@ -510,7 +519,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"35"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -520,7 +529,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"36"
 				"antialias" 								"1"
 			}
@@ -529,7 +538,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"30"
 				"antialias" 								"1"
 			}
@@ -538,7 +547,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"30"
 				"antialias" 								"1"
 			}
@@ -547,7 +556,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -556,7 +565,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -565,7 +574,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -574,7 +583,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -583,7 +592,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -592,7 +601,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -601,7 +610,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -610,7 +619,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"16"
 				"antialias" 								"1"
 			}
@@ -619,7 +628,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"16"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -629,7 +638,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -638,7 +647,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias"								 	"1"
 				"dropshadow"								"1"
@@ -648,7 +657,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -657,7 +666,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias" 								"1"
 				"dropshadow"								"1"
@@ -667,7 +676,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"12"
 				"antialias" 								"1"
 			}
@@ -676,7 +685,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"10"
 				"antialias" 								"1"
 			}
@@ -685,7 +694,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"16"
 				"antialias" 								"1"
 			}
@@ -694,7 +703,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"9"
 				"antialias" 								"1"
 			}
@@ -703,7 +712,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"9"
 				"antialias" 								"1"
 			}
@@ -712,7 +721,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"6"
 				"antialias" 								"1"
 			}
@@ -721,7 +730,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -769,7 +778,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -788,7 +797,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -797,7 +806,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"10"
 				"antialias" 								"1"
 			}
@@ -806,7 +815,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
@@ -816,7 +825,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"20"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
@@ -826,7 +835,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"36"
 				"range"										"0x0000 0x007F"
 				"antialias" 								"1"
@@ -836,7 +845,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -845,7 +854,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"20"
 				"antialias" 								"1"
 			}
@@ -854,7 +863,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -873,7 +882,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"16"
 				"dropshadow"								"1"
 				"antialias" 								"1"
@@ -883,7 +892,7 @@
 		{
 			"4"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"dropshadow"								"1"
 				"antialias" 								"1"
@@ -893,7 +902,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -902,7 +911,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"9"
 				"antialias" 								"1"
 			}
@@ -911,7 +920,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -920,7 +929,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -929,7 +938,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"10"
 				"antialias" 								"1"
 			}
@@ -938,7 +947,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"10"
 				"antialias" 								"1"
 			}
@@ -956,7 +965,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -965,7 +974,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"9"
 				"antialias" 								"1"
 			}
@@ -974,7 +983,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"12"
 				"antialias" 								"1"
 			}
@@ -983,7 +992,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias"								 	"1"
 			}
@@ -992,7 +1001,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"7"
 				"antialias" 								"1"
 			}
@@ -1001,7 +1010,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -1010,7 +1019,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -1019,7 +1028,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -1028,7 +1037,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -1038,7 +1047,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"9"
 				"antialias" 								"1"
 			}
@@ -1047,7 +1056,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"9"
 				"blur"										"3"
 				"additive"									"1"
@@ -1058,7 +1067,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"7"
 				"additive"									"1"
 				"antialias" 								"1"
@@ -1068,7 +1077,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"7"
 				"additive"									"1"
 				"antialias" 								"1"
@@ -1078,7 +1087,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"7"
 				"antialias" 								"1"
 			}
@@ -1087,7 +1096,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
@@ -1098,7 +1107,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"7"
 				"antialias" 								"1"
 			}
@@ -1107,7 +1116,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1116,7 +1125,7 @@
 		{
 			"13"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1125,7 +1134,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"16"
 				"antialias"								 	"1"
 			}
@@ -1134,7 +1143,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -1143,7 +1152,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -1152,7 +1161,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -1161,7 +1170,7 @@
 		{
 			"3"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1170,7 +1179,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"13"
 				"antialias" 								"1"
 			}
@@ -1179,7 +1188,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"16"
 				"antialias" 								"1"
 			}
@@ -1188,7 +1197,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"10"
 				"antialias" 								"1"
 			}
@@ -1197,7 +1206,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -1206,7 +1215,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -1215,7 +1224,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -1224,7 +1233,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"9"
 				"antialias" 								"1"
 				"italic"									"1"
@@ -1234,7 +1243,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"12"
 				"range"										"0x0000 0x017F"
 				"antialias" 								"1"
@@ -1244,7 +1253,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -1253,7 +1262,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"range"										"0x0000 0x017F"
 				"antialias" 								"1"
@@ -1263,7 +1272,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -1272,7 +1281,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias"								 	"1"
 			}
@@ -1281,7 +1290,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -1290,7 +1299,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -1299,7 +1308,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -1308,7 +1317,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -1317,7 +1326,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -1326,7 +1335,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"9"
 				"antialias" 								"1"
 			}
@@ -1335,7 +1344,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -1344,7 +1353,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"11"
 				"blur"										"3"
 				"additive"									"1"
@@ -1355,7 +1364,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"12"
 				"antialias" 								"1"
 				"dropshadow"								"1"
@@ -1365,7 +1374,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
@@ -1376,7 +1385,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"7"
 				"antialias" 								"1"
 			}
@@ -1385,7 +1394,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"10"
 				"antialias" 								"1"
 			}
@@ -1394,7 +1403,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -1403,7 +1412,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"AgencyFB"
 				"tall"										"30"
 				"antialias" 								"1"
 			}
@@ -2762,13 +2771,13 @@
 	{
 		"1"
 		{
-			"font" "resource/fonts/heebo.ttf"
-			"name" "HeeboBold"
+			"font" "resource/fonts/agency.ttf"
+			"name" "AgencyFB"
 		}
 		"2"
 		{
-			"font" "resource/fonts/heebouber.ttf"
-			"name" "HeeboUber2"
+			"font" "resource/fonts/agencynumbers.ttf"
+			"name" "AgencyFB-Numbers"
 		}
 	}
 }
