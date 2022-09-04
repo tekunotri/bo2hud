@@ -31,47 +31,105 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Explanation"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
+		"xpos"										"99999"
+	}
+	
+	//==================================================================================================================================================
+	// BIG LABEL
+	//==================================================================================================================================================
+
+	"BigLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"BigLabel"
+		"xpos"										"5"
+		"ypos"										"5"
+		"zpos"										"6"
 		"wide"										"f0"
-		"tall"										"12"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"mouseinputenabled"							"0"
-		"labelText"									"Click Anywhere To Continue"
 		"AllCaps"									"1"
-		"textAlignment"								"center"
+		"labelText"									"MUTLIPLAYER MENU"
+		"textAlignment"								"west"
+		"Default"									"0"
+		"font"										"HudFontBig"
+
+		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"font"										"FontStorePrice"
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
 	}
+	"BigLabelShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"BigLabelShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"5"
+		"wide"										"f0"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"AllCaps"									"1"
+		"labelText"									"MUTLIPLAYER MENU"
+		"textAlignment"								"west"
+		"font"										"HudFontBig"
+		"fgcolor"									"0 0 0 130"
+		"pin_to_sibling"							"BigLabel"
+	}
+	
 	"ok"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ok"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"3"
+		"ypos"										"6"
 		"zpos"										"6"
 		"wide"										"f0"
-		"tall"										"f0"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"CONTINUE"
-		"textAlignment"								"center"
+		"textAlignment"								"west"
 		"command"									"continue"
 		"default"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"HudFontGiantBold"
+		"font"										"MatchSummaryWinner"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
+		"armedFgColor_override" 					"Main"
 		"depressedFgColor_override" 				"White"
+		
+		"pin_to_sibling"							"BigLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	
+	"okShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"okShadow"
+		"xpos"										"-5"
+		"ypos"										"-1"
+		"zpos"										"6"
+		"wide"										"f0"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"CONTINUE"
+		"textAlignment"								"west"
+		"default"									"1"
+		"proportionaltoparent"						"1"
+		"font"										"MatchSummaryWinner"
+
+		"paintbackground"							"0"
+		"paintborder"								"0"
+		
+		"fgcolor"									"0 0 0 130"
+		
+		"pin_to_sibling"							"ok"
 	}
 	"OKShortKey"
 	{
