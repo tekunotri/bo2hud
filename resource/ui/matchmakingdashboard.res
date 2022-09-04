@@ -440,8 +440,8 @@
 			"RoundedCorners"						"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"116 43 43 255"
-			"defaultBgColor_override"				"225 75 75 255"
+			"armedBgColor_override"					"Low"
+			"defaultBgColor_override"				"Low"
 
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
@@ -489,8 +489,8 @@
 			"RoundedCorners"						"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"116 43 43 255"
-			"defaultBgColor_override"				"225 75 75 255"
+			"armedBgColor_override"					"Low"
+			"defaultBgColor_override"				"Low"
 
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
@@ -587,8 +587,8 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"50 112 73 255"
-			"defaultBgColor_override"				"80 175 115 255"
+			"armedBgColor_override"					"High"
+			"defaultBgColor_override"				"High"
 
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
