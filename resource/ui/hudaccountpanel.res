@@ -9,8 +9,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValue"
-		"xpos"										"cs-0.5"
-		"ypos"										"c115"
+		"xpos"										"r102"
+		"ypos"										"r23"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"20"
