@@ -54,8 +54,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-
-		"max_size"									"30"
+		"max_size"									"19"
 
 		"6v6_gap"									"4"
 		"12v12_gap"									"1"
@@ -128,9 +127,11 @@
 				"xpos"								"0"
 				"zpos"								"5"
 				"wide"								"f0"
-				"visible"							"1"
+				"tall"								"f0"
+				"visible"							"0"
 				"enabled"							"1"
 				"bgcolor_override"	   				"80 80 80 255"
+				"proportionaltoparent"				"1"
 			}
 			"overhealbar"
 			{	
@@ -140,9 +141,11 @@
 				"xpos"								"0"
 				"zpos"								"6"
 				"wide"								"f0"
+				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
 				"fgcolor_override"	   				"0 231 244 160"
+				"proportionaltoparent"				"1"
 			}
 			"respawntime"
 			{
