@@ -20,8 +20,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
-		"xpos"										"c-150"
-		"ypos"										"c90"
+		"xpos"										"114"
+		"ypos"										"r55"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"40"
@@ -216,7 +216,7 @@
 		"ControlName"				         		"ImagePanel"
 		"fieldName"				         			"PlayerStatusMarkedForDeathSilentImage"
 		"xpos"					         			"0"
-		"ypos"					         			"0"
+		"ypos"					         			"r65"
 		"zpos"					         			"7"
 		"wide"					         			"16"
 		"tall"					         			"16"
@@ -225,7 +225,7 @@
 		"scaleImage"				         		"1"
 		"image"					         			"../vgui/marked_for_death"
 		"fgcolor"				         			"TanDark"
-		"pin_to_sibling"			         		"PlayerStatusAnchor"
+		//"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
