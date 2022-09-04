@@ -12,7 +12,7 @@
 	}
 	"Servers"
 	{
-		"label"									"servers"
+		"label"									"online"
 		"command" 								"OpenServerBrowser"
 	}
 	"Create"
@@ -23,7 +23,7 @@
 	}
 	"Items"
 	{
-		"label"									"items"
+		"label"									"create a class"
 		"command"								"engine open_charinfo"
 	}
 	"Store"
@@ -39,7 +39,7 @@
 	}
 	"Advanced Options"
 	{
-		"label"									"adv.options"
+		"label"									"adv. options"
 		"command"								"opentf2options"
 	}
 	"Contracker"
@@ -57,12 +57,6 @@
 	{
 		"label"									"mute"
 		"command"								"OpenMutePlayerDialog"
-		"OnlyInGame"							"1"
-	}
-	"Report"
-	{
-		"label"									"report"
-		"command"								"OpenReportPlayerDialog"
 		"OnlyInGame"							"1"
 	}
 	"Disconnect"

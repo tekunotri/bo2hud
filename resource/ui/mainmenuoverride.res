@@ -51,35 +51,6 @@
 		}
 	}
 
-	"MainBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MainBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-
-		"BG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BG"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"46 43 42 255"
-		}
-	}
-
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"								"EditablePanel"
