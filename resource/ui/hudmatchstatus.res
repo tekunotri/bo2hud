@@ -13,8 +13,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
-		"xpos"										"cs-0.5"
-		"ypos"										"0"
+		"xpos"										"0"
+		"ypos"										"4"
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"30"
@@ -47,7 +47,7 @@
 		"ControlName"								"CTFTeamStatus"
 		"fieldName"									"TeamStatus"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"rs1"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"15"
@@ -60,11 +60,11 @@
 		"12v12_gap"									"0"
 
 		"team1_grow_dir" 							"west"
-		"team1_base_x"								"c-45"
+		"team1_base_x"								"c-2"
 		"team1_max_expand"							"120"
 
 		"team2_grow_dir" 							"east"
-		"team2_base_x"								"c45"
+		"team2_base_x"								"c2"
 		"team2_max_expand"							"120"
 
 		"playerpanels_kv"

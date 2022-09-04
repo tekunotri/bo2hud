@@ -51,8 +51,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RedTimerBG"
-		"xpos"										"rs1"
-		"ypos"										"0"
+		"xpos"										"0"
+		"ypos"										"15"
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"14"
@@ -67,8 +67,8 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
-		"xpos"										"rs1"
-		"ypos"										"0"
+		"xpos"										"0"
+		"ypos"										"15"
 		"zpos"										"2"
 		"wide"										"40"
 		"tall"										"14"

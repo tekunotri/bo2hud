@@ -38,10 +38,10 @@
 		"fieldName" 								"HudKothTimeStatus"
 		"visible" 									"1"
 		"enabled" 									"1"
-		"xpos"										"cs-0.5"
-		"ypos"										"0"
-		"wide"										"86"
-		"tall"										"30"
+		"xpos"										"0"
+		"ypos"										"5"
+		"wide"										"f0"
+		"tall"										"f0"
 		"blue_active_xpos"							"0"
 		"red_active_xpos"							"46"
 	}
@@ -412,7 +412,7 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"	 									"rs1-5"
-		"ypos"	 									"19"
+		"ypos"	 									"5"
 		"wide"								 		"628"
 		"tall"	 									"468"
 		"MaxDeathNotices" 							"6"
@@ -733,7 +733,7 @@
 		"enabled"									"1"
 		"separator_width"							"1"
 		"separator_height"							"1"
-		"height_offset"								"1"
+		"height_offset"								"452"
 	}
 
 	"HudCapturePanel"
@@ -1321,9 +1321,9 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"0"
-		"ypos"										"rs1"
+		"ypos"										"0"
 		"wide"	 									"f0"
-		"tall"	 									"20"
+		"tall"	 									"f0"
 	}
 
 	"HudSpectatorExtras"
