@@ -1,42 +1,36 @@
+#base "huditemeffectmeter.res"
+
 "Resource/UI/HudItemEffectMeter_KartCharge.res"
 {
 	"HudItemEffectMeter"
 	{
-		"fieldName"									"HudItemEffectMeter"
-		"visible"									"1"
-		"enabled"									"1"
-		"xpos"										"cs-0.5"
-		"ypos"										"c177"
-		"zpos"										"0"
-		"wide"										"80"
-		"tall"										"18"
+		"ypos"										"c100"
+		"tall"										"28"
 	}
+
+	"ItemEffectMeterLabel"
+	{
+		"ypos"										"rs1"
+	}
+
 	"ItemEffectMeter"
 	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5+2"
-		"zpos"										"0"
-		"wide"										"f0"
-		"tall"										"2"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
+		"ypos"										"18"
 	}
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
-		"xpos"										"cs-0.5"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"10"
+		"tall"										"18"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmallestShadow"
+		"font"										"m0refont16"
 	}
 }

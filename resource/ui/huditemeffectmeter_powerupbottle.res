@@ -43,7 +43,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"m0refont20"
 		"fgcolor"									"White"
 	}
 
@@ -61,11 +61,17 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"m0refont20"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 
 	"ItemEffectMeterBG"
 	{
