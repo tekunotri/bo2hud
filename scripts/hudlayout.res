@@ -1275,10 +1275,10 @@
 		"fieldName" 								"HudMenuTauntSelection"
 		"visible" 									"1"
 		"enabled" 									"1"
-		"xpos"										"rs1-2"
-		"ypos"										"rs1-30"
+		"xpos"										"rs1-5"
+		"ypos"										"cs-0.5"
 		"wide"										"88"
-		"tall"										"172"
+		"tall"										"168"
 	}
 
 	"ItemAttributeTracker"
