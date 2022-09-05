@@ -58,10 +58,10 @@
 		"enabled"									"1"
 		//"image"										"../vgui/replay/thumbnails/misc/replaceme"
 		"scaleImage"								"1"	
-		"teambg_2"									"../vgui/replay/thumbnails/team/redbadge"
-		"teambg_2_lowdef"									"../vgui/replay/thumbnails/team/redbadge"
-		"teambg_3"									"../vgui/replay/thumbnails/team/blubadge"
-		"teambg_3_lowdef"									"../vgui/replay/thumbnails/team/blubadge"
+		"teambg_2"									"replay/thumbnails/team/redbadge"
+		"teambg_2_lowdef"									"replay/thumbnails/team/redbadge"
+		"teambg_3"									"replay/thumbnails/team/blubadge"
+		"teambg_3_lowdef"									"replay/thumbnails/team/blubadge"
 	}
 
 	"PlayerStatusHealthValue"
