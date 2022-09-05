@@ -14,7 +14,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"		         					"%targetname%"
 		"textAlignment"								"west"
-		"font"										"FontStorePrice"
+		"font"										"HudFontSmall"
 		"fgcolor"									"White"
 	}
 	"TargetNameLabelShadow"
@@ -31,7 +31,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"		         					"%targetname%"
 		"textAlignment"								"west"
-		"font"										"FontStorePrice"
+		"font"										"HudFontSmall"
 		"fgcolor"									"0 0 0 130"
 		"pin_to_sibling"							"TargetNameLabel"
 	}
@@ -49,7 +49,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%targetdata%"
 		"textAlignment"								"west"
-		"font"										"TargetID"
+		"font"										"HudFontSmall"
 		"fgcolor"									"White"
 	}
 
