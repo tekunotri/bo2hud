@@ -1419,6 +1419,25 @@
 				"antialias" 								"1"
 			}
 		}
+		
+		"m0reSymbols18"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V4"
+				"tall"										"18"
+				"antialias" 								"1"
+			}
+		}
+		"m0reSymbols20"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V4"
+				"tall"										"20"
+				"antialias" 								"1"
+			}
+		}
 	}
 
 	"Borders"
@@ -2780,6 +2799,11 @@
 		{
 			"font" "resource/fonts/agencynumbers.ttf"
 			"name" "AgencyFB-Numbers"
+		}
+		"3"
+		{
+			"font" "resource/fonts/m0rehud icons.ttf"
+			"name" "m0rehud Icons V4"
 		}
 	}
 }
