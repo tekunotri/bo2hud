@@ -542,7 +542,7 @@
 		"tall"										"15"
 		"visible"									"0"
 
-		"pin_to_sibling" 							"Scoreboard"
+		"pin_to_sibling" 							"Contracker"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 
@@ -1061,86 +1061,6 @@
 		}
 	}
 
-	"Enable Captions"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Enable Captions"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling" 							"Toggle Contracts"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"m0reSymbols18"
-			"textAlignment"							"center"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Main"
-			"depressedFgColor_override" 			"White"
-		}
-	}
-
-	"Disable Captions"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Disable Captions"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling" 							"Enable Captions"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"m0reSymbols18"
-			"textAlignment"							"center"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override" 				"255 100 100 255"
-			"armedFgColor_override" 				"Main"
-			"depressedFgColor_override" 			"White"
-		}
-	}
-
 	"Toggle Chat"
 	{
 		"ControlName"								"EditablePanel"
@@ -1151,7 +1071,7 @@
 		"wide"										"20"
 		"tall"										"20"
 
-		"pin_to_sibling" 							"Disable Captions"
+		"pin_to_sibling" 							"Toggle Contracts"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 

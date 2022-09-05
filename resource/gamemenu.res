@@ -136,20 +136,6 @@
 		"tooltip"									"Enable/Disable Contracts"
 		"OnlyInGame"								"1"
 	}
-	"Enable Captions"
-	{
-		"label"										"E"
-		"command"									"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
-		"tooltip"									"Enable CloseCaptions"
-		"OnlyInGame"								"1"
-	}
-	"Disable Captions"
-	{
-		"label"										"E"
-		"command"									"engine closecaption 0; cc_predisplay_time 0"
-		"tooltip"									"Disable CloseCaptions"
-		"OnlyInGame"								"1"
-	}
 	"Toggle Chat"
 	{
 		"label"										"A"
