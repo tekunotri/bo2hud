@@ -489,48 +489,6 @@
 	// INGAME BUTTONS
 	//==================================================================================================================================================
 
-	"Scoreboard"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Scoreboard"
-		"xpos"										"0"
-		"ypos"										"6"
-		"zpos"										"15"
-		"wide"										"150"
-		"tall"										"15"
-		"visible"									"0"
-
-		"pin_to_sibling" 							"Streams"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"MatchSummaryWinner"
-			"AllCaps"								"1"
-			"textAlignment"							"west"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Main"
-			"depressedFgColor_override" 			"White"
-		}
-	}
-
 	"Disconnect"
 	{
 		"ControlName"								"EditablePanel"
@@ -626,7 +584,9 @@
 		"tall"										"15"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"MainMenuAnchor"
+		"pin_to_sibling" 							"Logo"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -695,47 +655,6 @@
 		}
 	}
 
-	"Report"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Report"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"15"
-		"wide"										"20"
-		"tall"										"15"
-		"visible"									"1"
-
-		"pin_to_sibling" 							"Mute"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"m0reSymbols18"
-			"textAlignment"							"center"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Main"
-			"depressedFgColor_override" 			"White"
-		}
-	}
-
 	"Achievements"
 	{
 		"ControlName"								"EditablePanel"
@@ -748,7 +667,7 @@
 		"visible"									"1"
 		"command"									"OpenAchievementsDialog"
 
-		"pin_to_sibling" 							"Report"
+		"pin_to_sibling" 							"Mute"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 

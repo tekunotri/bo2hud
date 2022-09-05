@@ -50,12 +50,6 @@
 	// IN GAME BUTTONS
 	//====================================================================================================================================================
 
-	"Scoreboard"
-	{
-		"label"										"Scoreboard"
-		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
 	"Disconnect"
 	{
 		"label" 									"Disconnect"
@@ -81,13 +75,6 @@
 		"command"									"OpenMutePlayerDialog"
 		"tooltip"									"Mute a Player"
 		"OnlyInGame" 								"1"
-	}
-	"Report"
-	{
-		"label"										"K"
-		"command"									"OpenReportPlayerDialog"
-		"tooltip"									"Report a Player"
-		"OnlyInGame"								"1"
 	}
 	"Achievements"
 	{
