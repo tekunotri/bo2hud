@@ -951,9 +951,10 @@
 		"wide"										"20"
 		"tall"										"20"
 
-		"pin_to_sibling" 							"Toggle Netgraph"
+
+		"pin_to_sibling" 							"ToolsAnchor"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -992,7 +993,7 @@
 		"tall"										"20"
 
 		"pin_to_sibling" 							"ToolsAnchor"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"SubButton"
@@ -1031,7 +1032,7 @@
 		"wide"										"20"
 		"tall"										"20"
 
-		"pin_to_sibling" 							"ToolsAnchor"
+		"pin_to_sibling" 							"Toggle Netgraph"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 
