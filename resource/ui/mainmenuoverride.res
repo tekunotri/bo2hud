@@ -164,7 +164,7 @@
 		"xpos"										"0"
 		"ypos"										"6"
 		"zpos"										"15"
-		"wide"										"45"
+		"wide"										"46"
 		"tall"										"15"
 
 		"pin_to_sibling" 							"Logo"

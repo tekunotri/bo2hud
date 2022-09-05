@@ -539,6 +539,9 @@
 			"use_proportional_insets"				"1"
 
 			"sound_depressed"						"UI/buttonclick.wav"
+			
+			"armedBgColor_override"					"Low"
+			"defaultBgColor_override"				"Low"
 
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
