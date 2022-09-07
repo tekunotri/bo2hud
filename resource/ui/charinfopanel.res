@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override"					"46 43 42 255"
-		"outoffocus_bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"							"46 43 42 0"
+		"infocus_bgcolor_override"					"46 43 42 0"
+		"outoffocus_bgcolor_override"				"46 43 42 0"
 
 		"title"										""
 		"title_font"								""
@@ -27,11 +27,28 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"0"
 	}
-	
+
+	"BackgroundBlur"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"BackgroundBlur"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"-9999"
+		"wide"										"o1.777"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../vgui/replay/thumbnails/main menu/background_blur"
+		"scaleImage"								"1"
+		"alpha"										"1"
+	}
+
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Sheet"
+		"zpos"										"1"
 		"tabxindent"								"0"
 		"tabxdelta"									"0"
 		"tabwidth"									"0"

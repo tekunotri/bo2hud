@@ -13,9 +13,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override" 					"46 43 42 255"
-		"outoffocus_bgcolor_override" 				"46 43 42 255"
+		"bgcolor_override"							"46 43 42 0"
+		"infocus_bgcolor_override" 					"46 43 42 0"
+		"outoffocus_bgcolor_override" 				"46 43 42 0"
 
 		"item_ypos"									"85"
 		"output_item_ypos"							"255"
@@ -128,6 +128,22 @@
 			"scaleImage"							"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
+	}
+
+	"BackgroundBlur"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"BackgroundBlur"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5-25"
+		"zpos"										"-9999"
+		"wide"										"o1.777"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../vgui/replay/thumbnails/main menu/background_blur"
+		"scaleImage"								"1"
+		"alpha"										"1"
 	}
 
 	"recipecontainerscroller"

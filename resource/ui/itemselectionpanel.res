@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
-		"bgcolor_override"							"46 43 42 255"
+		"bgcolor_override"							"46 43 42 0"
 
 		"item_ypos"									"90"
 		"item_ydelta"								"80"
@@ -83,6 +83,22 @@
 			"enabled"								"1"
 			"fgcolor"								"153 204 255 255"
 		}
+	}
+
+	"BackgroundBlur"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"BackgroundBlur"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5-25"
+		"zpos"										"-9999"
+		"wide"										"o1.777"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../vgui/replay/thumbnails/main menu/background_blur"
+		"scaleImage"								"1"
+		"alpha"										"1"
 	}
 
 	"NameFilterIcon"
