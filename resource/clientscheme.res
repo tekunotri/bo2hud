@@ -65,7 +65,7 @@
 
 		"HudPanelForeground"								"123 110 59 184"
 		"HudPanelBackground"								"123 110 59 184"
-		"HudPanelBorder"									"255 255 255 102"
+		"HudPanelBorder"									"225 220 220 102"
 
 		"HudProgressBarActive"								"225 220 220 255"
 		"HudProgressBarInActive"							"225 220 220 255"
@@ -338,7 +338,7 @@
 		"SectionedListPanel.SelectedTextColor"				"Black"
 		"SectionedListPanel.SelectedBgColor"				"Red"
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
-		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 255 255 32"
+		"SectionedListPanel.OutOfFocusSelectedBgColor"		"225 220 220 32"
 
 		"Slider.NobColor"									"108 108 108 255"
 		"Slider.TextColor"									"127 140 127 255"
@@ -403,7 +403,7 @@
 		"SelectionBoxBg" 									"0 0 0 80"
 		"SelectionSelectedBoxBg" 							"0 0 0 190"
 
-		"HintMessageFg"										"255 255 255 255"
+		"HintMessageFg"										"225 220 220 255"
 		"HintMessageBg" 									"0 0 0 60"
 
 		"ProgressBarFg"										"255 30 13 255"
@@ -521,7 +521,7 @@
 		{
 			"1"
 			{
-				"name"										"AgencyFB"
+				"name"										"AgencyFB-Numbers"
 				"tall"										"35"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
