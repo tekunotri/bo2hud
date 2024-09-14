@@ -96,7 +96,7 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/mainmenu/background_blur"
 		"scaleImage"								"1"
-		"alpha"										"1"
+		"alpha"										"255"
 	}
 
 	"classmodelpanel"

@@ -45,7 +45,7 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/main menu/background_blur"
 		"scaleImage"								"1"
-		"alpha"										"1"
+		"alpha"										"255"
 	}
 
 	"ScoutCustom"
