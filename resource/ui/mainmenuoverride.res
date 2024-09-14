@@ -111,7 +111,7 @@
 		"tall"										"o0.125"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../vgui/replay/thumbnails/main menu/logo"
+		"image"										"replay/thumbnails/mainmenu/logo"
 		"scaleImage"								"1"
 		"alpha"										"1"
 	}

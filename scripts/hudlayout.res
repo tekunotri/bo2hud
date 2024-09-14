@@ -424,8 +424,8 @@
 		"TextFont"									"StorePromotionsTitle"
 		"TeamBlue"									"HUDBlueTeamSolid"
 		"TeamRed"									"HUDRedTeamSolid"
-		"IconColor"									"White"
-		"LocalPlayerColor"							"White"
+		"IconColor"									"255 255 255 255"
+		"LocalPlayerColor"							"255 255 255 255"
 		"BaseBackgroundColor"						"0 0 0 0"
 		"LocalBackgroundColor"						"0 0 0 0"
 	}

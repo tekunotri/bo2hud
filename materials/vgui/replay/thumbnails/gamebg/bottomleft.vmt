@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\game bg\bottomleft"
+	"$basetexture" "vgui/replay/thumbnails/gamebg/bottomleft"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

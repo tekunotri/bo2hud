@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\game bg\bottomright"
+	"$basetexture" "vgui/replay/thumbnails/mainmenu/background_blur"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

@@ -23,7 +23,7 @@
 		"tall"										"o0.5"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../vgui/replay/thumbnails/game bg/bottomright"
+		"image"										"replay/thumbnails/gamebg/bottomright"
 		"scaleImage"								"1"
 		"alpha"										"1"
 	}

@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 0"
-		"infocus_bgcolor_override" 					"46 43 42 0"
-		"outoffocus_bgcolor_override" 				"46 43 42 0"
+		"bgcolor_override"							"18 19 20 255"
+		"infocus_bgcolor_override" 					"18 19 20 255"
+		"outoffocus_bgcolor_override" 				"18 19 20 255"
 
 		"selectlabely_default"						"25"
 		"selectlabely_onchanges"					"15"
@@ -43,7 +43,7 @@
 		"tall"										"480"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										"../vgui/replay/thumbnails/main menu/background_blur"
+		"image"										"replay/thumbnails/main menu/background_blur"
 		"scaleImage"								"1"
 		"alpha"										"1"
 	}

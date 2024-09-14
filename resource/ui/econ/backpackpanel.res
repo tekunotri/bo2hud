@@ -11,9 +11,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 0"
-		"infocus_bgcolor_override" 					"46 43 42 0"
-		"outoffocus_bgcolor_override" 				"46 43 42 0"
+		"bgcolor_override"							"18 19 20 255"
+		"infocus_bgcolor_override" 					"18 19 20 255"
+		"outoffocus_bgcolor_override" 				"18 19 20 255"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
