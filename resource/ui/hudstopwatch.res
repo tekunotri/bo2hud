@@ -44,8 +44,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"15"
+		"ypos"										"rs1-35"
 		"zpos"										"1"
 		"wide"										"50"
 		"tall"										"12"
@@ -70,7 +70,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"textAlignment"							"east"
-			"font"									"HudFontSmallestShadow"
+			"font"									"TimerFont"
 			"fgcolor"								"White"
 		}
 	}

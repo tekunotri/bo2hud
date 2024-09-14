@@ -637,6 +637,16 @@
 				"dropshadow" 								"1"
 			}
 		}
+		"TimerFont"
+		{
+			"1"
+			{
+				"name"										"AgencyFB-Numbers"
+				"tall"										"16"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
 		"HudFontSmallBold"
 		{
 			"1"
