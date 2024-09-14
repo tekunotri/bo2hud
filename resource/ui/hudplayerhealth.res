@@ -40,9 +40,9 @@
 		"tall"										"o0.5"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/gamebg/bottomleft"
+		"image"										"replay/thumbnails/gamebg/bo2left"
 		"scaleImage"								"1"
-		"alpha"										"1"
+		"alpha"										"255"
 	}
 	
 	"TeamBadge"

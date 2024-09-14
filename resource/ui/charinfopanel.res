@@ -39,7 +39,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../vgui/replay/thumbnails/main menu/background_blur"
+		"image"										"replay/thumbnails/mainmenu/background_blur"
 		"scaleImage"								"1"
 		"alpha"										"1"
 	}

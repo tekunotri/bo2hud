@@ -23,9 +23,9 @@
 		"tall"										"o0.5"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/gamebg/bottomright"
+		"image"										"replay/thumbnails/gamebg/bo2right"
 		"scaleImage"								"1"
-		"alpha"										"1"
+		"alpha"										"255"
 	}
 	"ChargeLabel"
 	{
