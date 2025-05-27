@@ -1,9 +1,9 @@
 "Resource/UI/CharInfoPanel.res"
 {
-	"character_info"
+	"Character_Info"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"character_info"
+		"fieldName"									"Character_Info"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"18 19 20 255"
-		"infocus_bgcolor_override"					"18 19 20 255"
-		"outoffocus_bgcolor_override"				"18 19 20 255"
+		"bgcolor_override"							"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
+		"outoffocus_bgcolor_override"				"DarkBrown"
 
 		"title"										""
 		"title_font"								""
@@ -27,36 +27,18 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"0"
 	}
-
-	"BackgroundBlur"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BackgroundBlur"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
-		"zpos"										"-9999"
-		"wide"										"o1.777"
-		"tall"										"480"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"replay/thumbnails/mainmenu/background_blur"
-		"scaleImage"								"1"
-		"alpha"										"255"
-	}
-
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Sheet"
-		"zpos"										"1"
 		"tabxindent"								"0"
 		"tabxdelta"									"0"
 		"tabwidth"									"0"
 		"tabheight"									"0"
-		"transition_time" 							"0"
+		"transition_time"							"0"
 		"yoffset"									"0"
 
-		"tabskv"
+		"TabsKV"
 		{
 			"textinsetx"							"0"
 			"font"									""
@@ -65,10 +47,9 @@
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
-			"normalborder_override" 				"NoBorder"
+			"normalborder_override"					"NoBorder"
 		}
 	}
-
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -84,13 +65,12 @@
 		"labelText"									"BACK"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
-		"default"									"0"
 		"Command"									"back"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		"defaultBgColor_override"					"31 32 33 255"
-		"armedBgColor_override"						"18 19 20 255"
+		"defaultBgColor_override"					"FooterBGBlack"
+		"armedBgColor_override"						"Main"
 
 		"armedFgColor_override"						"White"
 		"defaultFgColor_override"					"White"
@@ -104,16 +84,26 @@
 		"Command"									"back"
 		"visible"									"1"
 	}
+	"CloseShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"CloseShortKey"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"close"
+		"visible"									"1"
+	}
 	"NotificationsPresentPanel"
 	{
 		"ControlName"								"CNotificationsPresentPanel"
 		"fieldName"									"NotificationsPresentPanel"
-		"xpos"										"r200"
+		"xpos"										"rs1-5"
 		"ypos"										"10"
 		"zpos"										"10000"
 		"wide"										"190"
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 	}
 }

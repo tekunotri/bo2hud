@@ -9,19 +9,22 @@
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"14"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"   						"HUDBlueTeamSolid"
 		"alpha"   									"200"
+		"pin_to_sibling"			"BlueTimer"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"BlueTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"BlueTimer"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"15"
+		"ypos"										"rs1-55"
 		"zpos"										"2"
 		"wide"										"40"
 		"tall"										"14"
@@ -43,8 +46,8 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallBoldShadow"
-			"fgcolor"								"White"
+			"font"									"TimerFont"
+			"fgcolor"								"HUDBlueTeamSolid"
 		}
 	}
 	"RedTimerBG"
@@ -56,25 +59,31 @@
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"14"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"   						"HUDRedTeamSolid"
 		"alpha"   									"200"
+		"pin_to_sibling"			"RedTimer"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"RedTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
-		"xpos"										"0"
-		"ypos"										"15"
+		"xpos"										"-25"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"40"
 		"tall"										"14"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
+		"pin_to_sibling"			"BlueTimer"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 
 		"TimePanelValue"
 		{
@@ -90,8 +99,8 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallBoldShadow"
-			"fgcolor"								"White"
+			"font"									"TimerFont"
+			"fgcolor"								"HUDRedTeamSolid"
 		}
 	}
 	"ActiveTimerBG"
@@ -108,5 +117,6 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"   						"White"
+
 	}
 }
