@@ -20,11 +20,14 @@ Scheme
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"142 142 142 255"
 		"Orange"			"255 155 0 255"
-		"TransparentBlack"		"0 0 0 128"
+		"TransparentBlack"	"0 0 0 128"
 		"Black"				"0 0 0 255"
 		"Green"				"63 185 73 255"
 
 		"Blank"				"0 0 0 0"
+		"Low"				"240 123 4 255"
+		"High"				"8 4 240 255"
+
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -200,8 +203,8 @@ Scheme
 		NewGame.DisabledColor		"128 128 128 196"
 
 		TFColors.ChatTextYellow		"225 220 220 255"
-		TFColors.ChatTextBlue	"153 204 255 255"
-		TFColors.ChatTextRed	"255 63 53 255"
+		TFColors.ChatTextBlue		"High"
+		TFColors.ChatTextRed		"Main"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
